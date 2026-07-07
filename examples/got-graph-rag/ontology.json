@@ -1,0 +1,129 @@
+{
+  "clases": {
+    "Personaje": {
+      "comment": "Un individuo con nombre propio (ej. Ned Stark, Cersei Lannister, Jon Snow)",
+      "propiedades": {
+        "nombre": "string, obligatorio",
+        "estado": "enum: vivo | muerto | desconocido",
+        "titulo": "string opcional, ej. 'Lord Comandante', 'Rey en el Norte', 'Khal'"
+      }
+    },
+    "CasaNoble": {
+      "comment": "Una casa noble de Poniente (ej. Casa Stark, Casa Lannister, Casa Bolton)",
+      "propiedades": {
+        "nombre": "string, obligatorio",
+        "sede": "string opcional, ej. 'Invernalia', 'Roca Casterly'",
+        "lema": "string opcional, si se menciona en el texto"
+      }
+    },
+    "Organizacion": {
+      "comment": "Cualquier grupo colectivo que no es una casa noble: militar, mercenario, o incluso un bando no humano (ej. Guardia de la Noche, Inmaculados, Compañía Dorada, Dothraki, Caminantes Blancos)",
+      "propiedades": {
+        "nombre": "string, obligatorio",
+        "tipo": "enum: militar | mercenaria | religiosa | sobrenatural | otra"
+      }
+    },
+    "Region": {
+      "comment": "Un lugar geográfico o político (ej. Norte, Essos, Desembarco del Rey, Rocadragón)",
+      "propiedades": {
+        "nombre": "string, obligatorio",
+        "tipo": "enum: reino | ciudad | fortaleza | continente"
+      }
+    },
+    "Evento": {
+      "comment": "Un suceso histórico puntual dentro de la narrativa (ej. Boda Roja, Guerra de los Cinco Reyes)",
+      "propiedades": {
+        "nombre": "string, obligatorio",
+        "tipo": "enum: batalla | traicion | matrimonio | asesinato | otro"
+      }
+    }
+  },
+
+  "relaciones": [
+    {
+      "nombre": "CASADO_CON",
+      "dominio": "Personaje",
+      "rango": "Personaje",
+      "simetrica": true,
+      "comment": "Matrimonio entre dos personajes"
+    },
+    {
+      "nombre": "PERTENECE_A",
+      "dominio": "Personaje",
+      "rango": "CasaNoble",
+      "simetrica": false,
+      "comment": "El personaje es miembro de esa casa noble por nacimiento o adopción"
+    },
+    {
+      "nombre": "ES_MIEMBRO_DE",
+      "dominio": "Personaje",
+      "rango": "Organizacion",
+      "simetrica": false,
+      "comment": "El personaje pertenece a una organización (no casa noble)"
+    },
+    {
+      "nombre": "LEAL_A",
+      "dominio": ["Personaje", "CasaNoble"],
+      "rango": ["CasaNoble", "Organizacion"],
+      "simetrica": false,
+      "comment": "Un personaje, o una casa noble vasalla de otra, mantiene lealtad hacia una casa u organización, sin ser necesariamente miembro formal (ej. un vasallo, un juramentado, una casa menor bajo el mando de una casa mayor)"
+    },
+    {
+      "nombre": "ALIADA_DE",
+      "dominio": ["CasaNoble", "Organizacion"],
+      "rango": ["CasaNoble", "Organizacion"],
+      "simetrica": true,
+      "comment": "Alianza activa entre dos entidades colectivas"
+    },
+    {
+      "nombre": "TRAICIONA_A",
+      "dominio": "CasaNoble",
+      "rango": "CasaNoble",
+      "simetrica": false,
+      "comment": "Una casa rompe una alianza o lealtad previa hacia otra de forma activa"
+    },
+    {
+      "nombre": "EN_GUERRA_CON",
+      "dominio": ["CasaNoble", "Organizacion"],
+      "rango": ["CasaNoble", "Organizacion"],
+      "simetrica": true,
+      "comment": "Conflicto armado activo entre dos entidades colectivas"
+    },
+    {
+      "nombre": "GOBIERNA",
+      "dominio": ["Personaje", "CasaNoble"],
+      "rango": "Region",
+      "simetrica": false,
+      "comment": "El personaje o la casa noble ejerce control político o militar sobre una región"
+    },
+    {
+      "nombre": "PARTICIPA_EN",
+      "dominio": ["Personaje", "CasaNoble"],
+      "rango": "Evento",
+      "simetrica": false,
+      "comment": "El personaje o casa tomó parte activa en ese evento"
+    },
+    {
+      "nombre": "CONTRATA",
+      "dominio": "CasaNoble",
+      "rango": "Organizacion",
+      "simetrica": false,
+      "comment": "Una casa noble paga o recluta a una organización militar externa"
+    },
+    {
+      "nombre": "SE_ENCUENTRA_CON",
+      "dominio": "Personaje",
+      "rango": "Personaje",
+      "simetrica": true,
+      "comment": "Dos personajes se conocen o interactúan directamente por primera vez"
+    }
+  ],
+
+  "atributos_de_relacion": {
+    "momento": {
+      "tipo": "string_libre",
+      "comment": "Ubicación temporal aproximada de la relación dentro de la narrativa, en lenguaje natural (ej. 'antes de la Boda Roja', 'después de la Boda Roja', 'al inicio del conflicto'). Se usa para poder distinguir relaciones contradictorias que ocurrieron en momentos distintos, como una alianza que luego se convierte en traición.",
+      "obligatorio": false
+    }
+  }
+}

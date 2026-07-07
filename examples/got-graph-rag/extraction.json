@@ -1,0 +1,981 @@
+{
+  "entidades": [
+    {
+      "nombre": "Casa Stark",
+      "tipo": "CasaNoble",
+      "propiedades": {
+        "nombre": "Casa Stark",
+        "sede": "Invernalia",
+        "lema": ""
+      }
+    },
+    {
+      "nombre": "Casa Tully",
+      "tipo": "CasaNoble",
+      "propiedades": {
+        "nombre": "Casa Tully",
+        "sede": "Aguasdulces",
+        "lema": ""
+      }
+    },
+    {
+      "nombre": "Ned Stark",
+      "tipo": "Personaje",
+      "propiedades": {
+        "nombre": "Ned Stark",
+        "estado": "",
+        "titulo": ""
+      }
+    },
+    {
+      "nombre": "Catelyn Tully",
+      "tipo": "Personaje",
+      "propiedades": {
+        "nombre": "Catelyn Tully",
+        "estado": "",
+        "titulo": ""
+      }
+    },
+    {
+      "nombre": "Guerra de los Cinco Reyes",
+      "tipo": "Evento",
+      "propiedades": {
+        "nombre": "Guerra de los Cinco Reyes",
+        "tipo": "conflicto"
+      }
+    },
+    {
+      "nombre": "Norte",
+      "tipo": "Region",
+      "propiedades": {
+        "nombre": "Norte",
+        "tipo": "región"
+      }
+    },
+    {
+      "nombre": "Invernalia",
+      "tipo": "Region",
+      "propiedades": {
+        "nombre": "Invernalia",
+        "tipo": "castillo"
+      }
+    },
+    {
+      "nombre": "Aguasdulces",
+      "tipo": "Region",
+      "propiedades": {
+        "nombre": "Aguasdulces",
+        "tipo": "castillo"
+      }
+    },
+    {
+      "nombre": "Casa Lannister",
+      "tipo": "CasaNoble",
+      "propiedades": {
+        "nombre": "Casa Lannister",
+        "sede": "Roca Casterly",
+        "lema": ""
+      }
+    },
+    {
+      "nombre": "Cersei Lannister",
+      "tipo": "Personaje",
+      "propiedades": {
+        "nombre": "Cersei Lannister",
+        "estado": "",
+        "titulo": ""
+      }
+    },
+    {
+      "nombre": "Robert Baratheon",
+      "tipo": "Personaje",
+      "propiedades": {
+        "nombre": "Robert Baratheon",
+        "estado": "",
+        "titulo": "rey"
+      }
+    },
+    {
+      "nombre": "Casa Baratheon",
+      "tipo": "CasaNoble",
+      "propiedades": {
+        "nombre": "Casa Baratheon",
+        "sede": "",
+        "lema": ""
+      }
+    },
+    {
+      "nombre": "Desembarco del Rey",
+      "tipo": "Region",
+      "propiedades": {
+        "nombre": "Desembarco del Rey",
+        "tipo": "ciudad"
+      }
+    },
+    {
+      "nombre": "Tywin Lannister",
+      "tipo": "Personaje",
+      "propiedades": {
+        "nombre": "Tywin Lannister",
+        "estado": "",
+        "titulo": ""
+      }
+    },
+    {
+      "nombre": "Ned Stark",
+      "tipo": "Personaje",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Casa Lannister",
+      "tipo": "CasaNoble",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Robb Stark",
+      "tipo": "Personaje",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Casa Stark",
+      "tipo": "CasaNoble",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Casa Tully",
+      "tipo": "CasaNoble",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Casa Frey",
+      "tipo": "CasaNoble",
+      "propiedades": {}
+    },
+    {
+      "nombre": "El Cruce",
+      "tipo": "Region",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Casa Frey",
+      "tipo": "CasaNoble",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Casa Lannister",
+      "tipo": "CasaNoble",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Casa Bolton",
+      "tipo": "CasaNoble",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Casa Stark",
+      "tipo": "CasaNoble",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Robb Stark",
+      "tipo": "Personaje",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Catelyn Stark",
+      "tipo": "Personaje",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Boda Roja",
+      "tipo": "Evento",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Norte",
+      "tipo": "Region",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Desembarco del Rey",
+      "tipo": "Region",
+      "propiedades": {
+        "tipo": "ciudad"
+      }
+    },
+    {
+      "nombre": "Casa Lannister",
+      "tipo": "CasaNoble",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Casa Tyrell",
+      "tipo": "CasaNoble",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Altojardín",
+      "tipo": "Region",
+      "propiedades": {
+        "tipo": "castillo"
+      }
+    },
+    {
+      "nombre": "Margaery Tyrell",
+      "tipo": "Personaje",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Joffrey Baratheon",
+      "tipo": "Personaje",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Tommen Baratheon",
+      "tipo": "Personaje",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Stannis Baratheon",
+      "tipo": "Personaje",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Cersei Lannister",
+      "tipo": "Personaje",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Casa Lannister",
+      "tipo": "CasaNoble",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Casa Tyrell",
+      "tipo": "CasaNoble",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Margaery Tyrell",
+      "tipo": "Personaje",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Fe Militante",
+      "tipo": "Organizacion",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Gran Septo de Baelor",
+      "tipo": "Region",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Altojardín",
+      "tipo": "Region",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Sansa Stark",
+      "tipo": "Personaje",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Ned Stark",
+      "tipo": "Personaje",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Catelyn Stark",
+      "tipo": "Personaje",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Tyrion Lannister",
+      "tipo": "Personaje",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Ramsay Bolton",
+      "tipo": "Personaje",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Casa Stark",
+      "tipo": "CasaNoble",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Casa Lannister",
+      "tipo": "CasaNoble",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Casa Bolton",
+      "tipo": "CasaNoble",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Desembarco del Rey",
+      "tipo": "Region",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Norte",
+      "tipo": "Region",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Daenerys Targaryen",
+      "tipo": "Personaje",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Dothraki",
+      "tipo": "Organizacion",
+      "propiedades": {
+        "tipo": "guerreros nómadas"
+      }
+    },
+    {
+      "nombre": "khal Drogo",
+      "tipo": "Personaje",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Inmaculados",
+      "tipo": "Organizacion",
+      "propiedades": {
+        "tipo": "ejército de soldados esclavos"
+      }
+    },
+    {
+      "nombre": "Essos",
+      "tipo": "Region",
+      "propiedades": {
+        "tipo": "continente"
+      }
+    },
+    {
+      "nombre": "Jon Snow",
+      "tipo": "Personaje",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Guardia de la Noche",
+      "tipo": "Organizacion",
+      "propiedades": {
+        "tipo": "orden militar"
+      }
+    },
+    {
+      "nombre": "Caminantes Blancos",
+      "tipo": "Organizacion",
+      "propiedades": {
+        "tipo": "ejército no humano"
+      }
+    },
+    {
+      "nombre": "Ejército de los Muertos",
+      "tipo": "Organizacion",
+      "propiedades": {
+        "tipo": "ejército no humano"
+      }
+    },
+    {
+      "nombre": "Rocadragón",
+      "tipo": "Region",
+      "propiedades": {
+        "tipo": "fortaleza"
+      }
+    },
+    {
+      "nombre": "Casa Targaryen",
+      "tipo": "CasaNoble",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Daenerys",
+      "tipo": "Personaje",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Casa Stark",
+      "tipo": "CasaNoble",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Norte",
+      "tipo": "Region",
+      "propiedades": {
+        "tipo": "región política"
+      }
+    },
+    {
+      "nombre": "Cersei Lannister",
+      "tipo": "Personaje",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Casa Lannister",
+      "tipo": "CasaNoble",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Casa Stark",
+      "tipo": "CasaNoble",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Casa Targaryen",
+      "tipo": "CasaNoble",
+      "propiedades": {}
+    },
+    {
+      "nombre": "Compañía Dorada",
+      "tipo": "Organizacion",
+      "propiedades": {
+        "tipo": "mercenarios"
+      }
+    },
+    {
+      "nombre": "Guardia de la Noche",
+      "tipo": "Organizacion",
+      "propiedades": {
+        "tipo": "militar"
+      }
+    },
+    {
+      "nombre": "Caminantes Blancos",
+      "tipo": "Organizacion",
+      "propiedades": {
+        "tipo": "no humano"
+      }
+    },
+    {
+      "nombre": "Poniente",
+      "tipo": "Region",
+      "propiedades": {
+        "tipo": "continente"
+      }
+    }
+  ],
+  "relaciones": [
+    {
+      "sujeto": "Casa Stark",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "GOBIERNA",
+      "objeto": "Norte",
+      "tipo_objeto": "Region",
+      "momento": ""
+    },
+    {
+      "sujeto": "Casa Stark",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "ALIADA_DE",
+      "objeto": "Casa Tully",
+      "tipo_objeto": "CasaNoble",
+      "momento": "antes de la Guerra de los Cinco Reyes"
+    },
+    {
+      "sujeto": "Ned Stark",
+      "tipo_sujeto": "Personaje",
+      "relacion": "PERTENECE_A",
+      "objeto": "Casa Stark",
+      "tipo_objeto": "CasaNoble",
+      "momento": ""
+    },
+    {
+      "sujeto": "Catelyn Tully",
+      "tipo_sujeto": "Personaje",
+      "relacion": "PERTENECE_A",
+      "objeto": "Casa Tully",
+      "tipo_objeto": "CasaNoble",
+      "momento": ""
+    },
+    {
+      "sujeto": "Ned Stark",
+      "tipo_sujeto": "Personaje",
+      "relacion": "CASADO_CON",
+      "objeto": "Catelyn Tully",
+      "tipo_objeto": "Personaje",
+      "momento": "antes de la Guerra de los Cinco Reyes"
+    },
+    {
+      "sujeto": "Casa Tully",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "ALIADA_DE",
+      "objeto": "Casa Stark",
+      "tipo_objeto": "CasaNoble",
+      "momento": "durante la Guerra de los Cinco Reyes"
+    },
+    {
+      "sujeto": "Casa Stark",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "PARTICIPA_EN",
+      "objeto": "Guerra de los Cinco Reyes",
+      "tipo_objeto": "Evento",
+      "momento": ""
+    },
+    {
+      "sujeto": "Casa Tully",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "PARTICIPA_EN",
+      "objeto": "Guerra de los Cinco Reyes",
+      "tipo_objeto": "Evento",
+      "momento": ""
+    },
+    {
+      "sujeto": "Cersei Lannister",
+      "tipo_sujeto": "Personaje",
+      "relacion": "CASADO_CON",
+      "objeto": "Robert Baratheon",
+      "tipo_objeto": "Personaje",
+      "momento": ""
+    },
+    {
+      "sujeto": "Cersei Lannister",
+      "tipo_sujeto": "Personaje",
+      "relacion": "PERTENECE_A",
+      "objeto": "Casa Lannister",
+      "tipo_objeto": "CasaNoble",
+      "momento": ""
+    },
+    {
+      "sujeto": "Tywin Lannister",
+      "tipo_sujeto": "Personaje",
+      "relacion": "PERTENECE_A",
+      "objeto": "Casa Lannister",
+      "tipo_objeto": "CasaNoble",
+      "momento": ""
+    },
+    {
+      "sujeto": "Casa Lannister",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "GOBIERNA",
+      "objeto": "Desembarco del Rey",
+      "tipo_objeto": "Region",
+      "momento": "después del matrimonio de Cersei y Robert"
+    },
+    {
+      "sujeto": "Ned Stark",
+      "tipo_sujeto": "Personaje",
+      "relacion": "PERTENECE_A",
+      "objeto": "Casa Stark",
+      "tipo_objeto": "CasaNoble",
+      "momento": ""
+    },
+    {
+      "sujeto": "Robb Stark",
+      "tipo_sujeto": "Personaje",
+      "relacion": "PERTENECE_A",
+      "objeto": "Casa Stark",
+      "tipo_objeto": "CasaNoble",
+      "momento": ""
+    },
+    {
+      "sujeto": "Casa Stark",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "EN_GUERRA_CON",
+      "objeto": "Casa Lannister",
+      "tipo_objeto": "CasaNoble",
+      "momento": "durante la rebelión de Robb Stark"
+    },
+    {
+      "sujeto": "Casa Tully",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "ALIADA_DE",
+      "objeto": "Casa Stark",
+      "tipo_objeto": "CasaNoble",
+      "momento": "durante la rebelión de Robb Stark"
+    },
+    {
+      "sujeto": "Robb Stark",
+      "tipo_sujeto": "Personaje",
+      "relacion": "GOBIERNA",
+      "objeto": "Norte",
+      "tipo_objeto": "Region",
+      "momento": "tras ser proclamado Rey en el Norte"
+    },
+    {
+      "sujeto": "Casa Frey",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "GOBIERNA",
+      "objeto": "El Cruce",
+      "tipo_objeto": "Region",
+      "momento": ""
+    },
+    {
+      "sujeto": "Casa Frey",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "ALIADA_DE",
+      "objeto": "Casa Lannister",
+      "tipo_objeto": "CasaNoble",
+      "momento": "antes de la Boda Roja"
+    },
+    {
+      "sujeto": "Casa Bolton",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "LEAL_A",
+      "objeto": "Casa Stark",
+      "tipo_objeto": "CasaNoble",
+      "momento": "antes de la Boda Roja"
+    },
+    {
+      "sujeto": "Casa Bolton",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "TRAICIONA_A",
+      "objeto": "Casa Stark",
+      "tipo_objeto": "CasaNoble",
+      "momento": "durante la Boda Roja"
+    },
+    {
+      "sujeto": "Casa Frey",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "TRAICIONA_A",
+      "objeto": "Casa Stark",
+      "tipo_objeto": "CasaNoble",
+      "momento": "durante la Boda Roja"
+    },
+    {
+      "sujeto": "Casa Bolton",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "PARTICIPA_EN",
+      "objeto": "Boda Roja",
+      "tipo_objeto": "Evento",
+      "momento": "durante la Boda Roja"
+    },
+    {
+      "sujeto": "Casa Frey",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "PARTICIPA_EN",
+      "objeto": "Boda Roja",
+      "tipo_objeto": "Evento",
+      "momento": "durante la Boda Roja"
+    },
+    {
+      "sujeto": "Robb Stark",
+      "tipo_sujeto": "Personaje",
+      "relacion": "PARTICIPA_EN",
+      "objeto": "Boda Roja",
+      "tipo_objeto": "Evento",
+      "momento": "durante la Boda Roja"
+    },
+    {
+      "sujeto": "Catelyn Stark",
+      "tipo_sujeto": "Personaje",
+      "relacion": "PARTICIPA_EN",
+      "objeto": "Boda Roja",
+      "tipo_objeto": "Evento",
+      "momento": "durante la Boda Roja"
+    },
+    {
+      "sujeto": "Casa Bolton",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "GOBIERNA",
+      "objeto": "Norte",
+      "tipo_objeto": "Region",
+      "momento": "después de la Boda Roja"
+    },
+    {
+      "sujeto": "Casa Bolton",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "ALIADA_DE",
+      "objeto": "Casa Lannister",
+      "tipo_objeto": "CasaNoble",
+      "momento": "después de la Boda Roja"
+    },
+    {
+      "sujeto": "Casa Lannister",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "ALIADA_DE",
+      "objeto": "Casa Tyrell",
+      "tipo_objeto": "CasaNoble",
+      "momento": "durante el reinado de Joffrey Baratheon"
+    },
+    {
+      "sujeto": "Margaery Tyrell",
+      "tipo_sujeto": "Personaje",
+      "relacion": "CASADO_CON",
+      "objeto": "Joffrey Baratheon",
+      "tipo_objeto": "Personaje",
+      "momento": "antes del asesinato de Joffrey"
+    },
+    {
+      "sujeto": "Margaery Tyrell",
+      "tipo_sujeto": "Personaje",
+      "relacion": "CASADO_CON",
+      "objeto": "Tommen Baratheon",
+      "tipo_objeto": "Personaje",
+      "momento": "tras el asesinato de Joffrey"
+    },
+    {
+      "sujeto": "Casa Tyrell",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "ALIADA_DE",
+      "objeto": "Casa Lannister",
+      "tipo_objeto": "CasaNoble",
+      "momento": "durante el reinado de Joffrey Baratheon"
+    },
+    {
+      "sujeto": "Casa Lannister",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "ALIADA_DE",
+      "objeto": "Casa Tyrell",
+      "tipo_objeto": "CasaNoble",
+      "momento": "antes de la destrucción del Gran Septo de Baelor"
+    },
+    {
+      "sujeto": "Cersei Lannister",
+      "tipo_sujeto": "Personaje",
+      "relacion": "PERTENECE_A",
+      "objeto": "Casa Lannister",
+      "tipo_objeto": "CasaNoble",
+      "momento": ""
+    },
+    {
+      "sujeto": "Margaery Tyrell",
+      "tipo_sujeto": "Personaje",
+      "relacion": "PERTENECE_A",
+      "objeto": "Casa Tyrell",
+      "tipo_objeto": "CasaNoble",
+      "momento": ""
+    },
+    {
+      "sujeto": "Casa Lannister",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "TRAICIONA_A",
+      "objeto": "Casa Tyrell",
+      "tipo_objeto": "CasaNoble",
+      "momento": "durante la destrucción del Gran Septo de Baelor"
+    },
+    {
+      "sujeto": "Casa Lannister",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "EN_GUERRA_CON",
+      "objeto": "Fe Militante",
+      "tipo_objeto": "Organizacion",
+      "momento": "durante la destrucción del Gran Septo de Baelor"
+    },
+    {
+      "sujeto": "Sansa Stark",
+      "tipo_sujeto": "Personaje",
+      "relacion": "PERTENECE_A",
+      "objeto": "Casa Stark",
+      "tipo_objeto": "CasaNoble",
+      "momento": ""
+    },
+    {
+      "sujeto": "Sansa Stark",
+      "tipo_sujeto": "Personaje",
+      "relacion": "CASADO_CON",
+      "objeto": "Tyrion Lannister",
+      "tipo_objeto": "Personaje",
+      "momento": "antes de escapar de Desembarco del Rey"
+    },
+    {
+      "sujeto": "Sansa Stark",
+      "tipo_sujeto": "Personaje",
+      "relacion": "CASADO_CON",
+      "objeto": "Ramsay Bolton",
+      "tipo_objeto": "Personaje",
+      "momento": "tras escapar de Desembarco del Rey"
+    },
+    {
+      "sujeto": "Ramsay Bolton",
+      "tipo_sujeto": "Personaje",
+      "relacion": "PERTENECE_A",
+      "objeto": "Casa Bolton",
+      "tipo_objeto": "CasaNoble",
+      "momento": ""
+    },
+    {
+      "sujeto": "Casa Bolton",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "GOBIERNA",
+      "objeto": "Norte",
+      "tipo_objeto": "Region",
+      "momento": "durante el matrimonio de Sansa con Ramsay"
+    },
+    {
+      "sujeto": "Daenerys Targaryen",
+      "tipo_sujeto": "Personaje",
+      "relacion": "CASADO_CON",
+      "objeto": "khal Drogo",
+      "tipo_objeto": "Personaje",
+      "momento": "antes de liberar a los Inmaculados"
+    },
+    {
+      "sujeto": "Daenerys Targaryen",
+      "tipo_sujeto": "Personaje",
+      "relacion": "ES_MIEMBRO_DE",
+      "objeto": "Dothraki",
+      "tipo_objeto": "Organizacion",
+      "momento": "tras su matrimonio con khal Drogo"
+    },
+    {
+      "sujeto": "Daenerys Targaryen",
+      "tipo_sujeto": "Personaje",
+      "relacion": "ES_MIEMBRO_DE",
+      "objeto": "Inmaculados",
+      "tipo_objeto": "Organizacion",
+      "momento": "tras liberarlos en Essos"
+    },
+    {
+      "sujeto": "Jon Snow",
+      "tipo_sujeto": "Personaje",
+      "relacion": "ES_MIEMBRO_DE",
+      "objeto": "Guardia de la Noche",
+      "tipo_objeto": "Organizacion",
+      "momento": "antes de ser Lord Comandante"
+    },
+    {
+      "sujeto": "Guardia de la Noche",
+      "tipo_sujeto": "Organizacion",
+      "relacion": "EN_GUERRA_CON",
+      "objeto": "Caminantes Blancos",
+      "tipo_objeto": "Organizacion",
+      "momento": "durante el mando de Jon Snow"
+    },
+    {
+      "sujeto": "Guardia de la Noche",
+      "tipo_sujeto": "Organizacion",
+      "relacion": "EN_GUERRA_CON",
+      "objeto": "Ejército de los Muertos",
+      "tipo_objeto": "Organizacion",
+      "momento": "durante el mando de Jon Snow"
+    },
+    {
+      "sujeto": "Jon Snow",
+      "tipo_sujeto": "Personaje",
+      "relacion": "SE_ENCUENTRA_CON",
+      "objeto": "Daenerys",
+      "tipo_objeto": "Personaje",
+      "momento": "en Rocadragón"
+    },
+    {
+      "sujeto": "Casa Targaryen",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "ALIADA_DE",
+      "objeto": "Guardia de la Noche",
+      "tipo_objeto": "Organizacion",
+      "momento": "tras la alianza con Jon Snow"
+    },
+    {
+      "sujeto": "Casa Targaryen",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "ALIADA_DE",
+      "objeto": "Casa Stark",
+      "tipo_objeto": "CasaNoble",
+      "momento": "tras la alianza contra los muertos"
+    },
+    {
+      "sujeto": "Guardia de la Noche",
+      "tipo_sujeto": "Organizacion",
+      "relacion": "ALIADA_DE",
+      "objeto": "Casa Stark",
+      "tipo_objeto": "CasaNoble",
+      "momento": "tras la alianza contra los muertos"
+    },
+    {
+      "sujeto": "Casa Stark",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "GOBIERNA",
+      "objeto": "Norte",
+      "tipo_objeto": "Region",
+      "momento": "tras liberarse del control Bolton"
+    },
+    {
+      "sujeto": "Cersei Lannister",
+      "tipo_sujeto": "Personaje",
+      "relacion": "PERTENECE_A",
+      "objeto": "Casa Lannister",
+      "tipo_objeto": "CasaNoble",
+      "momento": ""
+    },
+    {
+      "sujeto": "Casa Lannister",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "CONTRATA",
+      "objeto": "Compañía Dorada",
+      "tipo_objeto": "Organizacion",
+      "momento": "antes del desenlace del conflicto"
+    },
+    {
+      "sujeto": "Casa Stark",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "ALIADA_DE",
+      "objeto": "Casa Targaryen",
+      "tipo_objeto": "CasaNoble",
+      "momento": "durante la coalición Stark-Targaryen"
+    },
+    {
+      "sujeto": "Casa Stark",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "ALIADA_DE",
+      "objeto": "Guardia de la Noche",
+      "tipo_objeto": "Organizacion",
+      "momento": "durante la coalición Stark-Targaryen"
+    },
+    {
+      "sujeto": "Casa Targaryen",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "ALIADA_DE",
+      "objeto": "Guardia de la Noche",
+      "tipo_objeto": "Organizacion",
+      "momento": "durante la coalición Stark-Targaryen"
+    },
+    {
+      "sujeto": "Casa Lannister",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "EN_GUERRA_CON",
+      "objeto": "Caminantes Blancos",
+      "tipo_objeto": "Organizacion",
+      "momento": "hacia el desenlace del conflicto"
+    },
+    {
+      "sujeto": "Casa Stark",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "EN_GUERRA_CON",
+      "objeto": "Caminantes Blancos",
+      "tipo_objeto": "Organizacion",
+      "momento": "hacia el desenlace del conflicto"
+    },
+    {
+      "sujeto": "Casa Targaryen",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "EN_GUERRA_CON",
+      "objeto": "Caminantes Blancos",
+      "tipo_objeto": "Organizacion",
+      "momento": "hacia el desenlace del conflicto"
+    },
+    {
+      "sujeto": "Guardia de la Noche",
+      "tipo_sujeto": "Organizacion",
+      "relacion": "EN_GUERRA_CON",
+      "objeto": "Caminantes Blancos",
+      "tipo_objeto": "Organizacion",
+      "momento": "hacia el desenlace del conflicto"
+    }
+  ],
+  "relaciones_descartadas": [
+    {
+      "sujeto": "Casa Lannister",
+      "tipo_sujeto": "CasaNoble",
+      "relacion": "EN_GUERRA_CON",
+      "objeto": "Stannis Baratheon",
+      "tipo_objeto": "Personaje",
+      "momento": "durante la Guerra de los Cinco Reyes",
+      "motivo_descarte": "'EN_GUERRA_CON' no admite objeto de tipo 'Personaje' (rango válido: ['CasaNoble', 'Organizacion'])"
+    },
+    {
+      "sujeto": "Jon Snow",
+      "tipo_sujeto": "Personaje",
+      "relacion": "GOBIERNA",
+      "objeto": "Guardia de la Noche",
+      "tipo_objeto": "Organizacion",
+      "momento": "tras ascender a Lord Comandante",
+      "motivo_descarte": "'GOBIERNA' no admite objeto de tipo 'Organizacion' (rango válido: ['Region'])"
+    }
+  ]
+}

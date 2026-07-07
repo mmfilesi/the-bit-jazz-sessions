@@ -1,0 +1,125 @@
+[
+  {
+    "community_id": 0,
+    "members": [
+      "Invernalia"
+    ],
+    "summary": "Esta comunidad está centrada en la región de Invernalia, el hogar ancestral de la Casa Stark en el Norte de Poniente. Representa el núcleo territorial y político de los Stark, siendo un punto clave en la lucha por el control del Norte. Su presencia como única entidad sugiere que el grupo se enfoca en la importancia estratégica y simbólica de esta región dentro del conflicto general."
+  },
+  {
+    "community_id": 1,
+    "members": [
+      "Aguasdulces"
+    ],
+    "summary": "Esta comunidad está compuesta únicamente por la región de Aguasdulces, lo que sugiere que representa un área geográfica específica dentro del mundo de Juego de Tronos. Al ser una sola entidad, no forma una facción o alianza, sino que probablemente actúa como un punto de referencia territorial en el grafo de conocimiento."
+  },
+  {
+    "community_id": 2,
+    "members": [
+      "Casa Lannister",
+      "Cersei Lannister",
+      "Robert Baratheon",
+      "Desembarco del Rey",
+      "Tywin Lannister",
+      "Casa Tyrell",
+      "Margaery Tyrell",
+      "Joffrey Baratheon",
+      "Tommen Baratheon",
+      "Fe Militante",
+      "Compañía Dorada"
+    ],
+    "summary": "Esta comunidad representa el núcleo del poder político y militar en torno al Trono de Hierro durante gran parte de la serie, centrado en la alianza entre la Casa Lannister y la Casa Tyrell. Incluye a figuras clave como Cersei, Tywin, Joffrey y Tommen, así como a Margaery Tyrell, y está vinculada a la capital, Desembarco del Rey. La presencia de la Fe Militante y la Compañía Dorada sugiere que este grupo también abarca fuerzas religiosas y mercenarias que apoyan o desafían el control de la capital."
+  },
+  {
+    "community_id": 3,
+    "members": [
+      "Casa Baratheon"
+    ],
+    "summary": "Esta comunidad está compuesta exclusivamente por la Casa Baratheon, una de las grandes casas nobles de Poniente. Representa a la facción que reclama el Trono de Hierro, destacando por su linaje real y su símbolo del venado coronado. Su presencia solitaria sugiere que el algoritmo la identifica como un grupo cohesionado y distinto, posiblemente en oposición a otras casas o facciones rivales."
+  },
+  {
+    "community_id": 4,
+    "members": [
+      "Norte",
+      "Robb Stark",
+      "Casa Frey",
+      "El Cruce",
+      "Casa Bolton",
+      "Catelyn Stark",
+      "Boda Roja",
+      "Sansa Stark",
+      "Tyrion Lannister",
+      "Ramsay Bolton"
+    ],
+    "summary": "Esta comunidad representa el conflicto y la tragedia en el Norte, centrado en la Casa Stark y sus aliados y enemigos. Incluye a figuras clave como Robb Stark, Catelyn Stark y Sansa Stark, así como a sus traidores, la Casa Frey y la Casa Bolton, cuyo punto de inflexión es el evento de la Boda Roja en El Cruce. La presencia de Tyrion Lannister y Ramsay Bolton sugiere la interferencia externa y la brutalidad que marcaron la caída de los Stark. En conjunto, el grupo refleja la lucha por el control del Norte y las alianzas rotas que definieron esa región."
+  },
+  {
+    "community_id": 5,
+    "members": [
+      "Altojardín"
+    ],
+    "summary": "Esta comunidad está compuesta únicamente por la región de Altojardín, lo que sugiere que representa una entidad geográfica o política aislada en el grafo. Podría tratarse de un grupo centrado en el dominio territorial de la Casa Tyrell, aunque sin otras entidades asociadas, no se puede inferir una facción o alianza específica. En el contexto de Juego de Tronos, Altojardín es una región clave del sur de Poniente, conocida por su riqueza y lealtad a la Casa Tyrell."
+  },
+  {
+    "community_id": 6,
+    "members": [
+      "Stannis Baratheon"
+    ],
+    "summary": "Esta comunidad está compuesta por una única entidad, Stannis Baratheon, lo que sugiere que el algoritmo lo aisló como un nodo con conexiones insuficientes o muy específicas para agruparlo con otros. Esto podría reflejar su posición como un reclamante solitario al Trono de Hierro, enfrentado tanto a los Lannister como a su hermano Renly, y con una base de poder limitada a Dragonstone y sus seguidores leales. En el contexto del grafo, Stannis representa una facción independiente y beligerante, pero sin alianzas amplias dentro de esta comunidad."
+  },
+  {
+    "community_id": 7,
+    "members": [
+      "Gran Septo de Baelor"
+    ],
+    "summary": "Esta comunidad está compuesta por una única entidad, el Gran Septo de Baelor, que es un lugar emblemático en Desembarco del Rey. Representa el centro religioso y político de la Fe de los Siete, siendo escenario de eventos clave como la boda real de Joffrey Baratheon y la destrucción causada por Cersei Lannister. Por sí solo, no forma una facción o alianza, sino un punto de referencia geográfico y simbólico dentro del conflicto mayor de la serie."
+  },
+  {
+    "community_id": 8,
+    "members": [
+      "Daenerys Targaryen",
+      "Dothraki",
+      "khal Drogo",
+      "Inmaculados"
+    ],
+    "summary": "Esta comunidad representa el núcleo de la facción liderada por Daenerys Targaryen, compuesta por sus aliados militares más cercanos. Incluye a su esposo, el khal Drogo, y sus guerreros Dothraki, así como a los Inmaculados, su ejército de soldados entrenados. Juntos forman la base del poder militar y político de Daenerys en su campaña para reclamar el Trono de Hierro."
+  },
+  {
+    "community_id": 9,
+    "members": [
+      "Essos"
+    ],
+    "summary": "Esta comunidad está centrada en la región de Essos, un vasto continente al otro lado del Mar Angosto. Agrupa a personajes, lugares y organizaciones vinculados a este territorio, como las Ciudades Libres, la Bahía de los Esclavos y el Mar Dothraki. Representa el bando de los exiliados, mercenarios y aventureros que operan fuera de Poniente, incluyendo a Daenerys Targaryen y sus seguidores."
+  },
+  {
+    "community_id": 10,
+    "members": [
+      "Rocadragón"
+    ],
+    "summary": "Esta comunidad está compuesta únicamente por la región de Rocadragón, lo que sugiere que representa un territorio o bastión aislado en el grafo de conocimiento. Al no incluir personajes, casas u otras entidades, podría tratarse de un nodo geográfico que no está densamente conectado con otros elementos del mundo de Juego de Tronos, o bien que sus vínculos principales son con otras regiones o lugares fuera de esta lista."
+  },
+  {
+    "community_id": 11,
+    "members": [
+      "Casa Stark",
+      "Casa Tully",
+      "Ned Stark",
+      "Catelyn Tully",
+      "Guerra de los Cinco Reyes",
+      "Jon Snow",
+      "Guardia de la Noche",
+      "Caminantes Blancos",
+      "Ejército de los Muertos",
+      "Casa Targaryen",
+      "Daenerys"
+    ],
+    "summary": "Esta comunidad representa el núcleo de la alianza Stark-Tully, centrada en la familia de Ned Stark y Catelyn Tully, y su conexión con la Guerra de los Cinco Reyes. Además, incluye a Jon Snow y la Guardia de la Noche, vinculados a la amenaza sobrenatural de los Caminantes Blancos y el Ejército de los Muertos. También se incorpora a Daenerys Targaryen y su casa, lo que sugiere una convergencia entre los bandos del Norte, el Muro y los Targaryen en el conflicto."
+  },
+  {
+    "community_id": 12,
+    "members": [
+      "Poniente"
+    ],
+    "summary": "Esta comunidad está formada por una única entidad geográfica, Poniente, que representa el continente principal donde se desarrolla la mayor parte de la historia de Juego de Tronos. Al no incluir personajes, casas u organizaciones, el grupo se limita a definir el escenario central de la trama."
+  }
+]
